@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.card-body {
+    flex: 1;
+}

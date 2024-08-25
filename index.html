@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Roadmap</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Frontend Roadmap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stages">Roadmap Stages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Start Your Journey to Becoming a <span class="text-warning">Frontend Developer</span></h1>
+                    <p class="lead my-4">
+                        Follow this roadmap to master the skills needed to build beautiful, responsive, and interactive websites.
+                    </p>
+                    <a href="#stages" class="btn btn-primary btn-lg">Explore Roadmap</a>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="images/webdev.svg" alt="Frontend Roadmap">
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Stages -->
+    <section id="stages" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Roadmap Stages</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h3 class="card-title mb-3">HTML & CSS</h3>
+                            <p class="card-text">
+                                Start with the basics: Learn how to structure and style web pages using HTML and CSS.
+                            </p>
+                            <a href="pages/html-css.html" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-gear-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">JavaScript</h3>
+                            <p class="card-text">
+                                Enhance your web pages with interactive elements and dynamic content using JavaScript.
+                            </p>
+                            <a href="pages/javascript.html" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-stack"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Frontend Frameworks</h3>
+                            <p class="card-text">
+                                Learn popular frontend frameworks like React, Angular, or Vue to build complex UIs.
+                            </p>
+                            <a href="pages/frontend-frameworks.html" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- FAQ -->
+    <section id="faq" class="p-5 bg-dark text-light">
+        <div class="container">
+            <h2 class="mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item bg-dark text-light">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            What is the best way to start learning frontend development?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Start with the basics of HTML and CSS, then move on to JavaScript. Once you are comfortable, explore frameworks like React.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark text-light">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            How long does it take to become a frontend developer?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The time it takes varies depending on your prior experience and the amount of time you can dedicate. On average, it can take 6 months to a year of consistent learning.
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more FAQ items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

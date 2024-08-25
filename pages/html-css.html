@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML & CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .info-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Frontend Roadmap</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="bg-light text-dark p-5">
+        <div class="container">
+            <h1 class="mb-4">HTML & CSS</h1>
+            <p>HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are the foundational technologies for building web pages.</p>
+            
+            <!-- HTML Information -->
+            <div class="info-section">
+                <h2>HTML Basics</h2>
+                <p>HTML is the standard language used to create and design web pages. It consists of various elements and tags to structure content. For instance:</p>
+                <div class="bg-dark text-light p-3">
+                    <pre>&lt;h1&gt;Welcome to HTML&lt;/h1&gt;</pre>
+                </div>
+                <p>This creates a heading. HTML elements are nested within tags, and the content is placed between the opening and closing tags.</p>
+                <p>For more about HTML, check out these resources:</p>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+                    <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML</a></li>
+                </ul>
+            </div>
+            
+            <!-- CSS Information -->
+            <div class="info-section">
+                <h2>CSS Basics</h2>
+                <p>CSS is used to style and layout web pages. It allows you to change the appearance of HTML elements, such as colors, fonts, and spacing. For example:</p>
+                <div class="bg-dark text-light p-3">
+                    <pre>h1 { color: green; }</pre>
+                </div>
+                <p>This CSS code changes the color of all &lt;h1&gt; elements to green.</p>
+                <p>For more about CSS, check out these resources:</p>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></li>
+                    <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools - CSS</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="p-5 bg-dark text-light">
+        <div class="container">
+            <h2 class="mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item bg-dark text-light">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            What is HTML?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            HTML stands for HyperText Markup Language. It is used to structure content on the web.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark text-light">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            What is CSS?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            CSS stands for Cascading Style Sheets. It is used to style and layout web pages.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark text-light">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            How do HTML and CSS work together?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            HTML provides the structure of the page, while CSS controls its presentation. HTML elements are styled using CSS rules, allowing for a separation of content and design.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
