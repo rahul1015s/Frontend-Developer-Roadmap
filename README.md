@@ -35,8 +35,6 @@ To clone and run this project locally:
    ```bash
    git clone https://github.com/rahul1015s/Frontend-Developer-Roadmap.git
 
-   ## Contact
-
 If you have any questions or feedback, feel free to reach out:
 
 - **Name:** Rahul Verma
